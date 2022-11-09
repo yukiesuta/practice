@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+
+<body class="bg-gray-100">
+    <!-- header section -->
+    <header class="bg-white h-20 sticky top-0 w-full flex gap-x-0.5 justify-between">
+        <img clas="object-cover w-auto" src="img/header-logo.png" alt="">
+        <div class="flex flex-row-reverse w-auto">
+            <button
+                class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-2 px-4 m-3 border border-gray-400 rounded shadow">
+                ログアウト
+            </button>
+            <button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 m-3 rounded-full">
+                管理画面へ
+            </button>
+        </div>
+    </header>
+
+    <!-- main secrion -->
+    <main class="px-3 pt-1.5 max-w-4xl mx-auto">
+        <p>
+            ようこそPOSSE1:2.0期生 松本透歩さん
+        </p>
+        <button class="bg-blue-500 hover:bg-blue-700 text-white p-2 mt-3 shadow rounded">
+            リアルイベント
+        </button>
+        <div class="flex gap-x-3 mt-5">
+            <button class="bg-blue-500 hover:bg-blue-700 text-white p-2 mt-2 shadow rounded">
+                全て
+            </button>
+            <button class="bg-white hover:bg-gray-50 text-biue p-2 mt-2 shadow rounded">
+                参加
+            </button>
+            <button class="bg-white hover:bg-gray-50 text-biue p-2 mt-2 shadow rounded">
+                不参加
+            </button>
+            <button class="bg-white hover:bg-gray-50 text-biue p-2 mt-2 shadow rounded">
+                提出済み
+            </button>
+            <button class="bg-white hover:bg-gray-50 text-biue p-2 mt-2 shadow rounded">
+                未回答
+            </button>
+        </div>
+        <p class="mt-3">
+            一覧
+        </p>
+        <div class="flex flex-col w-full">
+            <div class="bg-white h-30 my-3 p-3 flex gap-x-0.5 justify-between shadow rounded">
+                <div>
+                    <p class="font-bold mb-3">
+                        課題全力サポート会
+                    </p>
+                    <p>
+                        2022年11月13日(日)
+                    </p>
+                    <p class="text-sm">
+                        10:00~11:30
+                    </p>
+                </div>
+                <div>
+                    <p class="mb-3 text-green-400">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 pb-1 inline">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          </svg>
+                          参加
+                        </p>
+                    <div>
+                        <span class="font-bold">4人</span>参加 >
+                    </div>
+                </div>
+            </div>
+            <div class="bg-white h-30 my-3 p-3 flex gap-x-0.5 justify-between shadow rounded">
+                <div>
+                    <p class="font-bold mb-3">
+                        課題全力サポート会
+                    </p>
+                    <p>
+                        2022年11月20日(日)
+                    </p>
+                    <p class="text-sm">
+                        10:00~11:30
+                    </p>
+                </div>
+                <div>
+                    <p class="mb-3 text-gray-400">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 pb-1 inline">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                          </svg>
+                          不参加
+                        </p>
+                    <div>
+                        <span class="font-bold">4人</span>参加 >
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>
